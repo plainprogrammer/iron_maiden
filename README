@@ -1,0 +1,13 @@
+= IronMaiden
+
+IronMaiden is a helpful gem for those wanting to get their Rails or other
+Rack-based applications bootstrapped with IronRuby and it's Rack IIS HTTP
+Handler.
+
+== Installation
+
+  gem install IronMaiden
+  
+== Usage
+
+  gem torture [--public DocumentRoot]
