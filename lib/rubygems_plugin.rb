@@ -23,7 +23,9 @@ class Gem::Commands::TortureCommand < Gem::Command
   private
   
     def copy_ironruby_rack_template(path)
-      # TODO: Copy the template files into the designated folder.
+      # TODO: Add ERB processing based on environment details inferred or specified
+      template_files = Dir.glob(File.join(File.dirname(__FILE__), 'template') + '/*')
+      FileUtils.cp_r template_files, path
     end
   
     def follow_up_directions

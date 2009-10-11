@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = %q{Iron Maiden is a tool for easing deployment of IronRuby applications providing both a gem command and a convential command line interface.}
   s.email = %q{james@plainprograms.com}
   s.extra_rdoc_files = ["README", "LICENSE"]
-  s.files = ["README", "lib/iron_maiden.rb", "lib/rubygems_plugin.rb", "LICENSE"]
+  s.files = ["README", "LICENSE", "lib/iron_maiden.rb", "lib/rubygems_plugin.rb", "lib/template/Web.config"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/jwthompson2/iron_maiden}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
