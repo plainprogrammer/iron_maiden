@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README", "LICENSE"]
   s.files = ["README", "lib/iron_maiden.rb", "lib/rubygems_plugin.rb", "LICENSE"]
   s.has_rdoc = true
-  s.homepage = %q{http://www.plainprograms.com/}
+  s.homepage = %q{https://github.com/jwthompson2/iron_maiden}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.0}
