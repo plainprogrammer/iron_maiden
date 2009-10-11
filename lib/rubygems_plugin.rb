@@ -31,7 +31,7 @@ class Gem::Commands::TortureCommand < Gem::Command
     def follow_up_directions
       <<-EOF
       ================================================================================
-      |            Your app has been successfully tortured by IronMaiden!            |
+      |           Your app has been successfully tortured by Iron Maiden!            |
       ================================================================================
       
       The Web.config file added into your application's public root is setup to work
