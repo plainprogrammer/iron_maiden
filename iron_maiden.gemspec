@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{iron_maiden}
-  s.version = "0.1.0-0.9.1"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Thompson"]
@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.description = %q{Iron Maiden is a tool for easing deployment of IronRuby applications providing both a gem command and a convential command line interface.}
   s.email = %q{james@plainprograms.com}
   s.extra_rdoc_files = ["README", "LICENSE"]
-  s.files = ["README", "LICENSE", "lib/iron_maiden.rb",
-             "lib/rubygems_plugin.rb", "lib/template/Web.config",
+  s.files = ["README", "LICENSE", "lib/rubygems_plugin.rb",
+             "lib/template/Web.config",
              "lib/template/bin/IronRuby.dll",
              "lib/template/bin/IronRuby.Libraries.dll",
              "lib/template/bin/IronRuby.Libraries.Yaml.dll",
