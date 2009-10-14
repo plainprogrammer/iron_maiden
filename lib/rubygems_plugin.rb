@@ -6,11 +6,13 @@ class Gem::Commands::TortureCommand < Gem::Command
   def initialize
     super 'torture', "Prepares a Rack application for deployment with IronRuby with the IIS Rack Handler"
 
-    add_option('-p', '--public PATH', 'Path to your Rack app\'s public document root')
+    add_option('-p', '--public PATH', 'Path to your Rack app\'s public document root') do |value,option|
+      options[:path] = value
+    end
   end
   
   def execute
-    explicit_path = get_one_optional_argument || './public'
+    explicit_path = options[:path] || './public'
     
     unless File.directory? explicit_path
       raise Gem::Exception, "supplied public path, or default ('public'), does not exist"
